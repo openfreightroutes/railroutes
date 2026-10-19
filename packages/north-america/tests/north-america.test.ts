@@ -25,6 +25,6 @@ describe('North America network (FRA/BTS NARN)', () => {
   it('carries public-domain metadata and exposes the CDN URL', () => {
     expect(NA.metadata?.license).toMatch(/Public domain/);
     expect(NA.metadata?.edges).toBeGreaterThan(10000);
-    expect(NETWORK_URLS.northAmerica).toMatch(/^https:\/\/cdn\.jsdelivr\.net\/gh\/mayurrawte\/railroutes@networks-v1\/.*north-america-v0\.json$/);
+    expect(NETWORK_URLS.northAmerica).toMatch(/^https:\/\/cdn\.jsdelivr\.net\/gh\/openfreightroutes\/railroutes@networks-v1\/.*north-america-v0\.json$/);
   });
 });
