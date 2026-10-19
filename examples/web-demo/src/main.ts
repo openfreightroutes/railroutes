@@ -210,7 +210,7 @@ function route() {
     resultEl.innerHTML =
       `<strong>Outside the ${REGIONS[regionKey].label} network</strong> (${minLat}–${maxLat}°N, ${minLon}–${maxLon}°E, dashed outline). ` +
       `Switch region above — Europe, India, North America and China are available; more via ` +
-      `<a href="https://github.com/mayurrawte/railroutes/issues" target="_blank" rel="noopener">the roadmap</a>.`;
+      `<a href="https://github.com/openfreightroutes/railroutes/issues" target="_blank" rel="noopener">the roadmap</a>.`;
     return;
   }
   resultEl.textContent = 'Routing…';

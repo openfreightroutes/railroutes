@@ -43,8 +43,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mayurrawte/railroutes.git",
+    "url": "git+https://github.com/openfreightroutes/railroutes.git",
     "directory": "packages/north-america"
   },
-  "homepage": "https://github.com/mayurrawte/railroutes/tree/main/packages/north-america#readme"
+  "homepage": "https://github.com/openfreightroutes/railroutes/tree/main/packages/north-america#readme"
 }

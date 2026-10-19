@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@railroute-ts/china.svg?style=flat)](https://www.npmjs.com/package/@railroute-ts/china)
 
-China rail network data for [`railroute-ts`](https://github.com/mayurrawte/railroutes).
+China rail network data for [`railroute-ts`](https://github.com/openfreightroutes/railroutes).
 Mainland China mainline including high-speed lines, from OpenStreetMap. Stations by English name (metro filtered out).
 
 ```bash

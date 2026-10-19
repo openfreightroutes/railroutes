@@ -39,7 +39,7 @@ corridors are included; Sakhalin and Far-East ferries where OSM tags them.
 | Moscow → Baku | 2,393 km | ~2,500 km |
 | Moscow → Vladivostok (with china) | 8,408 km | 9,289 km Trans-Siberian — shortest path cuts through Manchuria |
 | Moscow → Kyiv | 1,069 km | ~860 km — detour, OSM `usage=main` gap under investigation |
-| Aktobe → Kandyagash | 2,961 km | ~100 km — 25 untagged OSM ways, see [#17](https://github.com/mayurrawte/railroutes/issues/17) |
+| Aktobe → Kandyagash | 2,961 km | ~100 km — 25 untagged OSM ways, see [#17](https://github.com/openfreightroutes/railroutes/issues/17) |
 
 Data is a compact edge-level GeoJSON (`CIS_NETWORK.metadata` carries source,
 license, build date, bbox, edge count and km). Calendar versions (`2026.9.x`).

@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@railroute-ts/north-america.svg?style=flat)](https://www.npmjs.com/package/@railroute-ts/north-america)
 
-North America rail network data for [`railroute-ts`](https://github.com/mayurrawte/railroutes).
+North America rail network data for [`railroute-ts`](https://github.com/openfreightroutes/railroutes).
 US, Canada and Mexico mainline from the FRA/BTS North American Rail Network (main sub-network + rail ferries). Public domain. Amtrak/VIA stations by name; freight yards and Mexican stations by coordinates.
 
 ```bash

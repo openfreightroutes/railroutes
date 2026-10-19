@@ -18,7 +18,7 @@ def get(params, tries=4):
     url = f"{svc}/query?{urllib.parse.urlencode(params)}"
     for attempt in range(tries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "railroutes-pipeline (github.com/mayurrawte/railroutes)"})
+            req = urllib.request.Request(url, headers={"User-Agent": "railroutes-pipeline (github.com/openfreightroutes/railroutes)"})
             return json.loads(urllib.request.urlopen(req, timeout=300).read())
         except Exception as e:
             print(f"  retry {attempt+1}: {e}", flush=True); time.sleep(15)

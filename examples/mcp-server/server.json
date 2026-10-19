@@ -3,7 +3,7 @@
   "name": "io.github.mayurrawte/railroute",
   "description": "Rail routes for Europe, India, North America, China: distance, gauge breaks, ferries, GeoJSON.",
   "repository": {
-    "url": "https://github.com/mayurrawte/railroutes",
+    "url": "https://github.com/openfreightroutes/railroutes",
     "source": "github"
   },
   "version": "0.1.0",

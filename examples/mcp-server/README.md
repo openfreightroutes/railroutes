@@ -1,10 +1,10 @@
 # @railroute-ts/mcp
 
 [![npm version](https://img.shields.io/npm/v/@railroute-ts/mcp.svg?style=flat)](https://www.npmjs.com/package/@railroute-ts/mcp)
-[![license](https://img.shields.io/npm/l/@railroute-ts/mcp.svg?style=flat)](https://github.com/mayurrawte/railroutes/blob/main/railroute-ts/LICENSE)
+[![license](https://img.shields.io/npm/l/@railroute-ts/mcp.svg?style=flat)](https://github.com/openfreightroutes/railroutes/blob/main/railroute-ts/LICENSE)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that exposes
-[`railroute-ts`](https://github.com/mayurrawte/railroutes) to AI agents, so they
+[`railroute-ts`](https://github.com/openfreightroutes/railroutes) to AI agents, so they
 can compute real railway routes across Europe, India, North America and China ("how far is Rotterdam to Genoa by
 rail, and does it cross a gauge break?") instead of guessing.
 

@@ -43,8 +43,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mayurrawte/railroutes.git",
+    "url": "git+https://github.com/openfreightroutes/railroutes.git",
     "directory": "packages/europe"
   },
-  "homepage": "https://github.com/mayurrawte/railroutes/tree/main/packages/europe#readme"
+  "homepage": "https://github.com/openfreightroutes/railroutes/tree/main/packages/europe#readme"
 }

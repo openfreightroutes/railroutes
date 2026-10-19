@@ -80,7 +80,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mayurrawte/railroutes.git"
+    "url": "git+https://github.com/openfreightroutes/railroutes.git"
   },
   "sideEffects": [
     "**/stations/*.js"
@@ -88,8 +88,8 @@
   "engines": {
     "node": ">=20"
   },
-  "homepage": "https://github.com/mayurrawte/railroutes/tree/main/railroute-ts#readme",
+  "homepage": "https://github.com/openfreightroutes/railroutes/tree/main/railroute-ts#readme",
   "bugs": {
-    "url": "https://github.com/mayurrawte/railroutes/issues"
+    "url": "https://github.com/openfreightroutes/railroutes/issues"
   }
 }

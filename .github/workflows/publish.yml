@@ -3,7 +3,7 @@ name: Publish to npm
 # Publishes the core and every @railroute-ts/* data package that is not already
 # on npm at its package.json version. Auth via npm OIDC trusted publishing — link
 # each package on npmjs.com (Access → Trusted Publisher: GitHub Actions, repo
-# mayurrawte/railroutes, workflow publish.yml, environment EMPTY). No tokens.
+# openfreightroutes/railroutes, workflow publish.yml, environment EMPTY). No tokens.
 on:
   release:
     types: [published]

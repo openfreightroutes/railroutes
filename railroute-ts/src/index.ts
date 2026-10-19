@@ -296,12 +296,12 @@ export function railRoute(
  * demand than install a `@railroute-ts/<region>` package.
  */
 export const NETWORK_URLS = {
-  europe: 'https://cdn.jsdelivr.net/gh/mayurrawte/railroutes@networks-v1/railroute-ts/src/networks/europe-v0.json',
-  india: 'https://cdn.jsdelivr.net/gh/mayurrawte/railroutes@networks-v1/railroute-ts/src/networks/india-v0.json',
+  europe: 'https://cdn.jsdelivr.net/gh/openfreightroutes/railroutes@networks-v1/railroute-ts/src/networks/europe-v0.json',
+  india: 'https://cdn.jsdelivr.net/gh/openfreightroutes/railroutes@networks-v1/railroute-ts/src/networks/india-v0.json',
   /** FRA/BTS North American Rail Network main sub-network (US, Canada, Mexico). Public domain. */
-  northAmerica: 'https://cdn.jsdelivr.net/gh/mayurrawte/railroutes@networks-v1/railroute-ts/src/networks/north-america-v0.json',
-  china: 'https://cdn.jsdelivr.net/gh/mayurrawte/railroutes@networks-v1/railroute-ts/src/networks/china-v0.json',
-  corridor: 'https://cdn.jsdelivr.net/gh/mayurrawte/railroutes@networks-v1/railroute-ts/src/networks/corridor-v0.json',
+  northAmerica: 'https://cdn.jsdelivr.net/gh/openfreightroutes/railroutes@networks-v1/railroute-ts/src/networks/north-america-v0.json',
+  china: 'https://cdn.jsdelivr.net/gh/openfreightroutes/railroutes@networks-v1/railroute-ts/src/networks/china-v0.json',
+  corridor: 'https://cdn.jsdelivr.net/gh/openfreightroutes/railroutes@networks-v1/railroute-ts/src/networks/corridor-v0.json',
 } as const;
 
 export interface MergeNetworksOptions {

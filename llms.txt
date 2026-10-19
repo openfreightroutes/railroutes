@@ -65,7 +65,7 @@ Leaflet/Mapbox/deck.gl maps. For the sea leg, use `searoute-ts`
 ## Links
 
 - npm: https://www.npmjs.com/package/railroute-ts
-- Repo: https://github.com/mayurrawte/railroutes
-- Library: https://github.com/mayurrawte/railroutes/tree/main/railroute-ts
-- Data pipeline: https://github.com/mayurrawte/railroutes/tree/main/network
+- Repo: https://github.com/openfreightroutes/railroutes
+- Library: https://github.com/openfreightroutes/railroutes/tree/main/railroute-ts
+- Data pipeline: https://github.com/openfreightroutes/railroutes/tree/main/network
 - Sea sibling: https://github.com/mayurrawte/searoute-ts

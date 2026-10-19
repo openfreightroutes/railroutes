@@ -26,7 +26,7 @@ def query(q, out, tries=6):
         print(f"FETCH {out} (attempt {attempt}, {url.split('/')[2]})", flush=True)
         try:
             req = urllib.request.Request(url, data=urllib.parse.urlencode({"data": q}).encode(),
-                                         headers={"User-Agent": "railroutes-pipeline (github.com/mayurrawte/railroutes)"})
+                                         headers={"User-Agent": "railroutes-pipeline (github.com/openfreightroutes/railroutes)"})
             body = urllib.request.urlopen(req, timeout=1000).read()
             d = json.loads(body)
             if "elements" in d:

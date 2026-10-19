@@ -9,8 +9,8 @@
 
 [![npm version](https://img.shields.io/npm/v/railroute-ts.svg?style=flat)](https://www.npmjs.com/package/railroute-ts)
 [![npm downloads](https://img.shields.io/npm/dw/railroute-ts.svg?style=flat)](https://www.npmjs.com/package/railroute-ts)
-[![CI](https://github.com/mayurrawte/railroutes/actions/workflows/ci.yml/badge.svg)](https://github.com/mayurrawte/railroutes/actions/workflows/ci.yml)
-[![license](https://img.shields.io/npm/l/railroute-ts.svg?style=flat)](https://github.com/mayurrawte/railroutes/blob/main/railroute-ts/LICENSE)
+[![CI](https://github.com/openfreightroutes/railroutes/actions/workflows/ci.yml/badge.svg)](https://github.com/openfreightroutes/railroutes/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/railroute-ts.svg?style=flat)](https://github.com/openfreightroutes/railroutes/blob/main/railroute-ts/LICENSE)
 
 ```bash
 npm install railroute-ts @railroute-ts/europe    # core + the region(s) you need
@@ -29,7 +29,7 @@ corridor sample network); install the regions you route in. Data packages are ve
 calendar (`2026.9.x` = data refresh) and can also be fetched at runtime from a
 CDN with `loadNetwork(NETWORK_URLS.europe)`.
 
-**🗺️ [Try the interactive demo](https://mayurrawte.is-a.dev/railroutes/)** — click two points in Europe and see the rail route, computed in your browser.
+**🗺️ [Try the interactive demo](https://openfreightroutes.github.io/railroutes/)** — click two points in Europe and see the rail route, computed in your browser.
 
 **Status: v0.2.** Four regions — Europe (40,693 edges), India (6,858),
 North America (12,943) and China (12,445) — verified against real itineraries:
@@ -261,7 +261,7 @@ Same GeoJSON shape on both sides, so the legs concatenate onto one map.
 
 A companion [Model Context Protocol](https://modelcontextprotocol.io) server,
 [`@railroute-ts/mcp`](https://www.npmjs.com/package/@railroute-ts/mcp)
-([source](https://github.com/mayurrawte/railroutes/tree/main/examples/mcp-server)),
+([source](https://github.com/openfreightroutes/railroutes/tree/main/examples/mcp-server)),
 gives Claude Desktop, the `claude` CLI or any MCP client three tools:
 `rail_route`, `rail_route_alternatives` and `rail_station_search`. Everything
 runs locally — no API key, no network calls.
@@ -276,14 +276,14 @@ Shipped in v0.1–0.2: Europe, India, North America and China networks, UIC/IR s
 electrification awareness, train-ferry links, K-shortest alternatives, multi-leg
 itineraries, snap-distance guard.
 
-- **MCP server** (`@railroute-ts/mcp`) so AI agents can call `rail_route` — see [`examples/mcp-server`](https://github.com/mayurrawte/railroutes/tree/main/examples/mcp-server)
+- **MCP server** (`@railroute-ts/mcp`) so AI agents can call `rail_route` — see [`examples/mcp-server`](https://github.com/openfreightroutes/railroutes/tree/main/examples/mcp-server)
 - Trackage-rights-aware routing on NARN (#19)
 - `highspeed` edge flag so HSR vs conventional can be filtered
-- Further regions via the same pipeline ([design](https://github.com/mayurrawte/railroutes/blob/main/docs/superpowers/specs/2026-09-02-global-networks-design.md)): Japan, Russia/Central Asia (1520 mm), Australia, Brazil
+- Further regions via the same pipeline ([design](https://github.com/openfreightroutes/railroutes/blob/main/docs/superpowers/specs/2026-09-02-global-networks-design.md)): Japan, Russia/Central Asia (1520 mm), Australia, Brazil
 - Station fallback where OSM lacks `uic_ref` (Portugal, Sweden)
 - Shareable URL state in the demo
 
-Using railroute-ts? [Tell us](https://github.com/mayurrawte/railroutes/issues/new?template=who-uses-railroute-ts.md) — it shapes what gets built next.
+Using railroute-ts? [Tell us](https://github.com/openfreightroutes/railroutes/issues/new?template=who-uses-railroute-ts.md) — it shapes what gets built next.
 
 ## Migrating from 0.1.x
 

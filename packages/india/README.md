@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@railroute-ts/india.svg?style=flat)](https://www.npmjs.com/package/@railroute-ts/india)
 
-India rail network data for [`railroute-ts`](https://github.com/mayurrawte/railroutes).
+India rail network data for [`railroute-ts`](https://github.com/openfreightroutes/railroutes).
 Indian Railways mainline from OpenStreetMap. 8,476 stations with Indian Railways codes (NDLS, CSMT, MAS, HWH …).
 
 ```bash
